@@ -1,0 +1,14 @@
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-btns {
+  @include center;
+}
+
+.blocks {
+  @include center;
+}
